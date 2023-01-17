@@ -41,7 +41,7 @@ The format for this is also that used by the TREC conference. This file will hav
  * The name of the run (this should be your UCD student ID number).
 
 ### 1.5 Evaluation Output
-```python
+```
 Wait for a moment, please, reading document from documents folder ...
 ---------------------Read/Generate/Write File Time: 35.267461 sec.---------------------
 Wait for a moment, please, building index of BM25 from file ...
