@@ -1,6 +1,6 @@
 # B25-based Information Retrieval (IR) System
 
-## 1. Large Document Corpus
+## 1. System-v1 - Dealing with Large Document Corpus
 
 This file describes the contents of the corpus and associated files, along with their formats.
 
@@ -100,7 +100,7 @@ NDCG: 0.4941
 ---------------------System Overall Run Time: 40.348432 sec.-------------------------
 ```
 
-## 2. Small Document Corpus
+## 2. System-v2 - Dealing with Small Document Corpus
 
 This file describes the contents of the corpus and associated files, along with their formats.
 
