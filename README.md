@@ -6,7 +6,7 @@ This file describes the contents of the corpus and associated files, along with 
 
 ### 1.1 Documents
 
-The documents are contained in the [documents](documents) directory. Documents are organised in subdirectories according to their document ID. Each file in a subdirectory contains one document. The document ID is the filename. All files are plain text.
+The documents are contained in the documents directory. Documents are organised in subdirectories according to their document ID. Each file in a subdirectory contains one document. The document ID is the filename. All files are plain text.
 
 ### 1.2 Standard Queries
 
@@ -16,7 +16,7 @@ Each query is on a new line, with the query ID before the query keywords. In tot
 
 ### 1.3 Relevance Judgments
 
-The file ``[qrels.txt](files/qrels.txt)'' contains the relevance judgments. These are in the [format used by the TREC conference](https://trec.nist.gov/data/qrels_eng/).
+The file ``files/qrels.txt'' contains the relevance judgments. These are in the [format used by the TREC conference](https://trec.nist.gov/data/qrels_eng/).
 
 Each line has 4 fields, separated by whitespace. The fields are as follows:
 
@@ -29,7 +29,7 @@ Any document that does not have a relevance judgment for any query is unjudged.
 
 ### 1.4 Output Format
 
-A sample output file (with randomly chosen documents) is shown in [sample_output.txt](files/sample_output.txt). This is the format your results should be in.
+A sample output file (with randomly chosen documents) is shown in ``files/sample_output.txt". This is the format your results should be in.
 
 The format for this is also that used by the TREC conference. This file will have 6 fields on each line, which are:
 
@@ -46,17 +46,17 @@ This file describes the contents of the corpus and associated files, along with 
 
 ### 2.1 Documents
 
-The documents are contained in the [documents](documents) directory. Each file in this directory contains one document. The document ID is the filename. All files are plain text.
+The documents are contained in the documents directory. Each file in this directory contains one document. The document ID is the filename. All files are plain text.
 
 ### 2.2 Standard Queries
 
-The file ``[queries.txt](files/queries.txt)'' contains the standard queries for evaluation.
+The file ``files/queries.txt'' contains the standard queries for evaluation.
 
 Each query is on a new line, with the query ID before the query keywords. In total there are 82 queries.
 
 ### 2.3 Relevance Judgments
 
-The file ``[qrels.txt](files/qrels.txt)'' contains the relevance judgments. These are in the [format used by the TREC conference](https://trec.nist.gov/data/qrels_eng/).
+The file ``files/qrels.txt'' contains the relevance judgments. These are in the [format used by the TREC conference](https://trec.nist.gov/data/qrels_eng/).
 
 Each line has 4 fields, separated by whitespace. The fields are as follows:
 
@@ -69,7 +69,7 @@ In this corpus, there are no unjudged documents.
 
 ### 2.4 Output Format
 
-A sample output file (with randomly chosen documents) is shown in [sample_output.txt](files/sample_output.txt). This is the format your results should be in.
+A sample output file (with randomly chosen documents) is shown in ``files/sample_output.txt". This is the format your results should be in.
 
 The format for this is also that used by the TREC conference. This file will have 6 fields on each line, which are:
 
