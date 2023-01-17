@@ -175,14 +175,14 @@ Result for query [we]
 13 355 6.995317
 14 587 6.792621
 15 489 6.305406
----------------------Execute Query Time: 0.000795000000000004 sec.--------------------------------
+---------------------Execute Query Time: 0.000795000000000004 sec.---------------------------
 ```
 
 ### 2.6 Evaluation Output
 ```
----------------------Read/Generate/Write File Time: 3.0000000000002247e-05 sec.-------------------
+---------------------Read/Generate/Write File Time: 3.0000000000002247e-05 sec.--------------
 Wait for a moment, please, building index of BM25 from file ...
----------------------Build Index of B25 Index Time: 0.049407 sec.---------------------------------
+---------------------Build Index of B25 Index Time: 0.049407 sec.----------------------------
 Evaluation results:
 Precision: 0.0982
 Recall: 0.6543
@@ -191,5 +191,5 @@ R-precision: 0.3803
 MAP: 0.3928
 bpref: 0.3623
 NDCG: 0.3808
----------------------System Overall Run Time: 0.156583 sec.---------------------------------------
+---------------------System Overall Run Time: 0.156583 sec.----------------------------------
 ```
