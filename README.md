@@ -59,9 +59,9 @@ The format for this is also that used by the TREC conference. This file will hav
 
 ### 1.5 A Sample Output for Query Manually
 ```
----------------------Read/Generate/Write File time: 2.3000000000002185e-05 sec.---------------------
+---------------------Read/Generate/Write File time: 2.3000000000002185e-05 sec.-------------
 Wait for a moment, please, building index of BM25 from file ...
----------------------Build Index of B25 time: 4.488414 sec.----------------------------
+---------------------Build Index of B25 time: 4.488414 sec.---------------------------------
 Enter query: hello
 
 Result for query [hello]
@@ -80,15 +80,15 @@ Result for query [hello]
 13 GX014-67-16759661 1.513768
 14 GX017-03-1777733 1.428711
 15 GX048-21-3302291 1.175930
----------------------Execute Query Time: 0.0014739999999999753 sec.--------------------------------
+---------------------Execute Query Time: 0.0014739999999999753 sec.-------------------------
 ```
 
 ### 1.6 Evaluation Output
 ```
 Wait for a moment, please, reading document from documents folder ...
----------------------Read/Generate/Write File Time: 35.267461 sec.---------------------
+---------------------Read/Generate/Write File Time: 35.267461 sec.--------------------------
 Wait for a moment, please, building index of BM25 from file ...
----------------------Build Index of B25 Index Time: 4.8913749999999965 sec.----------------------
+---------------------Build Index of B25 Index Time: 4.8913749999999965 sec.-----------------
 Evaluation results:
 Precision: 0.3501
 Recall: 0.9110
@@ -97,7 +97,7 @@ R-precision: 0.4959
 MAP: 0.5136
 bpref: 0.5153
 NDCG: 0.4941
----------------------System Overall Run Time: 40.348432 sec.-------------------------
+---------------------System Overall Run Time: 40.348432 sec.--------------------------------
 ```
 
 ## 2. System-v2 - Dealing with Small Document Corpus
@@ -180,9 +180,9 @@ Result for query [we]
 
 ### 2.6 Evaluation Output
 ```
----------------------Read/Generate/Write File Time: 3.0000000000002247e-05 sec.---------------------
+---------------------Read/Generate/Write File Time: 3.0000000000002247e-05 sec.-------------------
 Wait for a moment, please, building index of BM25 from file ...
----------------------Build Index of B25 Index Time: 0.049407 sec.----------------------
+---------------------Build Index of B25 Index Time: 0.049407 sec.---------------------------------
 Evaluation results:
 Precision: 0.0982
 Recall: 0.6543
@@ -191,5 +191,5 @@ R-precision: 0.3803
 MAP: 0.3928
 bpref: 0.3623
 NDCG: 0.3808
----------------------System Overall Run Time: 0.156583 sec.-------------------------
+---------------------System Overall Run Time: 0.156583 sec.----------------------------------------
 ```
