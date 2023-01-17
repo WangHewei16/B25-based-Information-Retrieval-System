@@ -1,4 +1,4 @@
-# B25-based-Information-Retrieval-System
+# B25-based Information Retrieval (IR) System
 
 ## 1. Large Document Corpus
 
