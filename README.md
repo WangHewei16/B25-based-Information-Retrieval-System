@@ -4,6 +4,23 @@
 
 This file describes the contents of the corpus and associated files, along with their formats.
 
+```
+.
+|-- documents
+|-- files
+|   |-- __pycache__
+|   |   `-- porter.cpython-39.pyc
+|   |-- output.txt
+|   |-- porter.py
+|   |-- qrels.txt
+|   |-- queries.txt
+|   |-- sample_output.txt
+|   |-- simple_output.txt
+|   |-- stopwords.txt
+|   `-- terms_large.txt
+`-- search_large.py
+```
+
 ### 1.1 Documents
 
 The documents are contained in the "documents" directory. Documents are organised in subdirectories according to their document ID. Each file in a subdirectory contains one document. The document ID is the filename. All files are plain text.
@@ -87,6 +104,23 @@ NDCG: 0.4941
 
 This file describes the contents of the corpus and associated files, along with their formats.
 
+```
+.
+|-- documents
+|-- files
+|   |-- __pycache__
+|   |   `-- porter.cpython-39.pyc
+|   |-- output.txt
+|   |-- porter.py
+|   |-- qrels.txt
+|   |-- queries.txt
+|   |-- sample_output.txt
+|   |-- simple_output.txt
+|   |-- stopwords.txt
+|   `-- terms_large.txt
+`-- search_large.py
+```
+
 ### 2.1 Documents
 
 The documents are contained in the "documents" directory. Each file in this directory contains one document. The document ID is the filename. All files are plain text.
@@ -123,6 +157,45 @@ The format for this is also that used by the TREC conference. This file will hav
  * The similarity score for the document and this query.
  * The name of the run (this should be your UCD student ID number).
 
-```python
+### 2.5 A Sample Output for Query Manually
+```
+---------------------Read/Generate/Write File time: 2.3000000000002185e-05 sec.---------------------
+Wait for a moment, please, building index of BM25 from file ...
+---------------------Build Index of B25 time: 4.488414 sec.----------------------------
+Enter query: hello
 
+Result for query [hello]
+1 GX016-68-8167726 5.040544
+2 GX022-73-15765418 4.840700
+3 GX027-42-8507420 4.166417
+4 GX181-61-5790115 2.948497
+5 GX000-49-12224349 2.634025
+6 GX000-63-3636455 2.508728
+7 GX001-22-5770689 2.490494
+8 GX002-59-5385286 2.374683
+9 GX001-84-3895877 2.294411
+10 GX002-55-1145531 2.061862
+11 GX011-91-3185599 1.544885
+12 GX031-32-8523562 1.540457
+13 GX014-67-16759661 1.513768
+14 GX017-03-1777733 1.428711
+15 GX048-21-3302291 1.175930
+---------------------Execute Query Time: 0.0014739999999999753 sec.--------------------------------
+```
+
+### 2.6 Evaluation Output
+```
+Wait for a moment, please, reading document from documents folder ...
+---------------------Read/Generate/Write File Time: 35.267461 sec.---------------------
+Wait for a moment, please, building index of BM25 from file ...
+---------------------Build Index of B25 Index Time: 4.8913749999999965 sec.----------------------
+Evaluation results:
+Precision: 0.3501
+Recall: 0.9110
+P@10: 0.5074
+R-precision: 0.4959
+MAP: 0.5136
+bpref: 0.5153
+NDCG: 0.4941
+---------------------System Overall Run Time: 40.348432 sec.-------------------------
 ```
