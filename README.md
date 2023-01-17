@@ -40,6 +40,23 @@ The format for this is also that used by the TREC conference. This file will hav
  * The similarity score for the document and this query.
  * The name of the run (this should be your UCD student ID number).
 
+### 1.5 Evaluation Output
+```python
+Wait for a moment, please, reading document from documents folder ...
+---------------------Read/Generate/Write File Time: 35.267461 sec.---------------------
+Wait for a moment, please, building index of BM25 from file ...
+---------------------Build Index of B25 Index Time: 4.8913749999999965 sec.----------------------
+Evaluation results:
+Precision: 0.3501
+Recall: 0.9110
+P@10: 0.5074
+R-precision: 0.4959
+MAP: 0.5136
+bpref: 0.5153
+NDCG: 0.4941
+---------------------System Overall Run Time: 40.348432 sec.-------------------------
+```
+
 ## 2. Small Document Corpus
 
 This file describes the contents of the corpus and associated files, along with their formats.
@@ -79,3 +96,7 @@ The format for this is also that used by the TREC conference. This file will hav
  * The rank of the document in the results for this query (starting at 1).
  * The similarity score for the document and this query.
  * The name of the run (this should be your UCD student ID number).
+
+```python
+
+```
