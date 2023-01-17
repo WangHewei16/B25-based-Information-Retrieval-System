@@ -1,4 +1,4 @@
-# BM25-based Information Retrieval (IR) System-v1 and System-v2
+# BM25-based Information Retrieval (IR) System
 
 ## 1. System-v1 - Dealing with Large Document Corpus
 
