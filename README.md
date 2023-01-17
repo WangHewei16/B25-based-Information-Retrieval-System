@@ -6,11 +6,11 @@ This file describes the contents of the corpus and associated files, along with 
 
 ### 1.1 Documents
 
-The documents are contained in the documents directory. Documents are organised in subdirectories according to their document ID. Each file in a subdirectory contains one document. The document ID is the filename. All files are plain text.
+The documents are contained in the ``documents" directory. Documents are organised in subdirectories according to their document ID. Each file in a subdirectory contains one document. The document ID is the filename. All files are plain text.
 
 ### 1.2 Standard Queries
 
-The file ``[queries.txt](files/queries.txt)'' contains the standard queries for evaluation.
+The file ``files/queries.txt'' contains the standard queries for evaluation.
 
 Each query is on a new line, with the query ID before the query keywords. In total there are 82 queries.
 
@@ -46,7 +46,7 @@ This file describes the contents of the corpus and associated files, along with 
 
 ### 2.1 Documents
 
-The documents are contained in the documents directory. Each file in this directory contains one document. The document ID is the filename. All files are plain text.
+The documents are contained in the ``documents" directory. Each file in this directory contains one document. The document ID is the filename. All files are plain text.
 
 ### 2.2 Standard Queries
 
